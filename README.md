@@ -1,6 +1,6 @@
 # vue-cli3-generic-pwa
 
-Generic Vue CLI PWA Template with PWA plugin added, other npm packages, manifest.json and registerServiceWorker ready to go
+Generic Vue CLI PWA Template with PWA plugin added, other npm packages like Luxon date/time, manifest.json and registerServiceWorker ready to go
 
 ## Project setup
 ```
