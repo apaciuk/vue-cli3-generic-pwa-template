@@ -1,4 +1,4 @@
-//Use Example//
+//Use Examples//
 
 /*var webpack = require('webpack');
 module.exports = {
@@ -10,4 +10,18 @@ module.exports = {
       })
     ]
   }
+}if you like extra drama!*/
+
+// Or more likely
+/* vue.config.js
+module.exports = {
+  configureWebpack: config => {
+    if (process.env.NODE_ENV === 'production') {
+      // mutate config for production...
+    } else {
+      // mutate for development...
+    }
+  }
 }*/
+
+//or chainWebpack:
