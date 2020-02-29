@@ -10,9 +10,9 @@ module.exports = {
       })
     ]
   }
-}if you like extra drama!*/
+} if you like extra drama!*/
 
-// Or more likely
+/* Or more likely*/
 /* vue.config.js
 module.exports = {
   configureWebpack: config => {
@@ -21,6 +21,20 @@ module.exports = {
     } else {
       // mutate for development...
     }
+  }
+}*/
+
+
+/*Or Lodash*/
+
+/*var webpack = require('webpack');
+module.exports = {
+  configureWebpack: {
+    plugins: [
+      new webpack.ProvidePlugin({
+  _map: ['lodash', 'map']
+      })
+    ]
   }
 }*/
 
